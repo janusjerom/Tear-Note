@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"> 
+    <title>Sticky Notes</title>
+</head>
+<body>
+    <div id="Heading">
+        <h1>Tear Note</h1>
+        <p id="Name">By Janus Jerom</p>
+    </div>
+    <div id="form">
+        <form id="iForm">
+            <input type="text" placeholder="Title" class="inputText" id="titleInput" autocomplete="off" required  autofocus />
+            <input type="text" placeholder="Content" class="inputText" id="contenInput" autocomplete="off" required />
+            <button type="submit" class="btn">Create Note</button>
+        </form>
+    </div>
+
+    <h3 id="noNotes">No notes found, Create one!!</h3>
+    <ul id="notes"></ul>
+    <script src="JS/script.js"></script>
+</body>
+</html>
